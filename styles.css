@@ -4,6 +4,14 @@ body {
 	font-family: 'Abril Fatface', cursive;
 }
 
+.animal {
+	border-style: solid;
+	border-width: 3px;
+	padding: 10px;
+	border-radius: 8px;
+}
+
 img {
+	margin-top: 50px;
 	width: 50%;
 }
