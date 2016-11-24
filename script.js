@@ -38,7 +38,8 @@ app.config(function($routeProvider) {
         });
 
     $routeProvider.otherwise({
-        template: "You messed it all up!!!!!"
+        templateUrl: "cat.html"
+        template: "Click an Animal to Explore"
     });
 
 
