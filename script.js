@@ -38,8 +38,8 @@ app.config(function($routeProvider) {
         });
 
     $routeProvider.otherwise({
-        templateUrl: "cat.html"
-        // template: "Click an Animal to Explore"
+        // templateUrl: "cat.html"
+        template: "Click an Animal to Explore"
     });
 
     // location.hash = "/paragraph";
