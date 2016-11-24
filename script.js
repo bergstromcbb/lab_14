@@ -2,7 +2,7 @@ var app = angular.module("catdogApp", ["ngRoute"]);
 
 app.config(function($routeProvider) {
 
-    $routeProvider.when("/cat", {
+    $routeProvider.when("/", {
         templateUrl: "cat.html",
         controller: "picController"
     });
