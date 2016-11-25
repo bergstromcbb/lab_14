@@ -2,7 +2,7 @@ var app = angular.module("catdogApp", ["ngRoute"]);
 
 app.config(function($routeProvider) {
 
-    $routeProvider.when("/", {
+    $routeProvider.when("/cat", {
         templateUrl: "cat.html",
         controller: "picController"
     });
@@ -38,14 +38,10 @@ app.config(function($routeProvider) {
         });
 
     $routeProvider.otherwise({
-        // templateUrl: "cat.html"
-        template: "Click an Animal to Explore"
+        redirectTo: "/cat"
     });
 
-    // location.hash = "/paragraph";
 });
-
-
 
 app.controller("picController", function() {
   
